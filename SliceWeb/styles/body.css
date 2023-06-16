@@ -1,0 +1,96 @@
+.profile-body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Profile LEFT AND RIGHT Section Start */
+  .profile-left-section, .profile-right-section {
+    background-color: lightblue;
+    display: grid;
+    grid-template-rows: 55px 1fr;
+    max-width: 200px;
+    position: fixed;
+  }
+
+  .profile-right-section {
+    right: 0;
+  }
+  
+  .left-button-title-section, .right-button-title-section {
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .left-button-title, .right-button-title {
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+  }
+  
+  .left-button-section, .right-button-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-style: none;
+  }
+  
+  .left-button, .right-button {
+    height: 600px;
+
+    background-color: white;
+    border-style: none;
+  }
+
+  .left-button:hover, .right-button:hover {
+    cursor: pointer;
+    background-color: rgb(230, 230, 230);
+    transition: 0.3s;
+  }
+
+  .left-arrow-img, .right-arrow-img {
+    width: 25% ;
+  }
+  /* Profile LEFT AND RIGHT Section End */
+
+
+
+  /* Profile MIDDLE Section Start */
+  .profile-middle-section {
+    background-color: lightpink;
+    display: grid;
+    grid-template-rows: 200px 20px 20px 20px 1fr 1fr;
+    row-gap: 30px;
+    justify-content: center;
+  }
+  
+  .profile-picture-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-picture {
+    height: 200px;
+    border-radius: 100px;
+  }
+  
+  .username-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .user-stats-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .user-interaction-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  /* Profile MIDDLE Section End */
+
+  /* Profile MUSIC PLAYER Section Start */
+
+
+  /* Profile MUSIC PLAYER Section End */
