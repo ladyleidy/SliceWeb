@@ -1,0 +1,38 @@
+.feed-section {
+    display: grid;
+    grid-template-columns: 500px;
+    justify-content: center;
+}
+
+.post-section {
+    background-color: lightblue;
+    border-style: solid;
+    border-color: black;
+}
+
+.top-section {
+    display: grid;
+    grid-template-columns: 50px 400px 50px;
+}
+
+.profile-picture-img {
+    width: 100%;
+    border-radius: 25px;
+}
+
+.content-img {
+    width: 100%;
+}
+
+.user-interaction-section {
+    display: grid;
+    grid-template-columns: 30px 30px 30px 1fr;
+}
+
+.comment-img-button {
+    width: 10px;
+}
+
+.bookmark-button {
+    float: right;
+}
