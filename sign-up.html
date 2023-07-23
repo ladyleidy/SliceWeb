@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="styles/general.css">
+
+    <link rel="stylesheet" href="styles/header.css">
+
+    <link rel="stylesheet" href="styles/sign-up.css">
+  </head>
+
+  <body>
+    <!--Header START-->
+    <div class="header">
+      <!--Header Left Section START-->
+      <div class="header-left-section">
+        <button class="menu-button">
+          <img src="assets/icons8-hamburger-menu-50.png" class="menu-icon">
+        </button>
+        
+        <button class="slice-logo">
+          Logo
+        </button>
+      </div>
+      <!--Header Left Section END-->
+
+      <!--Header Middle Section START-->
+      <div class="header-middle-section">
+        <button class="select-dropdown">
+          <p>
+            Project
+          </p>
+        </button>
+
+        <input type="search" placeholder="Project Type" class="primary-searchbar">
+
+        <input type="search" placeholder="Location" class="secondary-searchbar">
+
+        <button class="search-button">
+          <p>
+            Search
+          </p>
+        </button>
+      </div>
+      <!--Header Middle Section END-->
+
+      <!--Header Right Section START-->
+      <div class="header-right-section">
+        <button class="messages-button">
+          <img src="assets/icons8-inbox-50.png" class="message-icon">
+        </button>
+          
+        <button class="account-button">
+          My Account 
+        </button>
+      </div>
+      <!--Header Right Section END-->
+    </div>
+    <!--Header END-->
+
+    <!--Login Section START-->        
+        <div id="form_content_container">
+          <form onsubmit="signup(event)">
+            <div class="sign-up-box">
+              <div>
+                <span>Full Name</span>
+                <input type="text" name="" placeholder="Full Name" id="fullname">
+              </div>
+              
+              <div>
+                  <Span>Email</Span>
+                  <input type="text" name="" placeholder="Email" id="email">
+              </div>
+              <div>
+                  <input type="password" name="" placeholder="Password" id="password">
+              </div>
+              <div>
+                  <input type="password" name="" placeholder="Confirm Password" id="copassword">
+              </div>
+                
+              <button  id="signupinp" value="Sign Up" class="btn">
+                Sign Up
+              </button>
+
+
+              <button>
+                Already a Member?
+              </button>
+          </form>
+        </div>
+    <!--Login Section END-->
+  </body>
+  <script src="sign-up.js" type="module"></script>
+</html>

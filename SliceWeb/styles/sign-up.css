@@ -1,0 +1,18 @@
+.login-box {
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 30px;
+  
+    background-color:rgb(33, 33, 33);
+    border-radius: 4px;
+  }
+  
+  .title-text {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .email-text, .password-text {
+    margin-top: 30px;
+  }
+  
