@@ -16,6 +16,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    margin-top: -2%;
   }
 
   .left-button, .right-button {
@@ -117,6 +119,11 @@
 
   }
   
+  .num-collabs, .num-followers, .num-following{
+    display: flex;
+    justify-content: center;
+  }
+
   .user-interaction-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

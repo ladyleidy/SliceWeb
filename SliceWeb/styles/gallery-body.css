@@ -1,0 +1,200 @@
+.gallery-body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Profile RIGHT Section Start */
+
+  .right-button-section {
+    right: 0;
+  }
+
+  .right-button-section {
+    max-width: 200px;
+    height:100%;
+
+    position: fixed;
+    
+    margin-top: -2%;
+  }
+
+  .right-button {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+  }
+
+  .right-button:hover {
+    box-shadow: -5px 3px 10px -2px rgb(20, 169, 255);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .right-arrow-img{
+    width: 25%;
+  }
+
+  /* Profile RIGHT Section End */
+
+
+  .gallery {
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(33, 33, 33);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .gallery .images {
+    gap: 15px;
+    max-width: 95%;
+    margin-top: 40px;
+    columns: 5 340px;
+    list-style: none;
+  }
+  .gallery .images .image {
+    display: flex;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 14px;
+    border-radius: 4px;
+  }
+  .gallery .images img {
+    width: 100%;
+    z-index: 2;
+    position: relative;
+  }
+  .images .details {
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    bottom: -100px;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    justify-content: space-between;
+    transition: bottom 0.1s ease;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  }
+
+  .images li:hover .details {
+    bottom: 0;
+  }
+
+  .caption {
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  .caption i {
+    font-size: 1.4rem;
+    margin-right: 10px;
+  }
+  .caption span {
+    font-size: 1.05rem;
+  }
+
+
+ 
+  .profile-middle-section{
+    align-items: center;
+  }
+
+  .profile-info-section {
+    position: fixed;
+
+    padding: 25px;
+
+    background-color: rgb(33, 33, 33);
+    border-radius: 20px;
+
+    display: grid;
+    grid-template-rows: 200px 20px 20px 20px 20px 20px;
+    row-gap: 30px;
+
+    right:10%;
+  }
+  
+  .profile-picture-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-picture {
+    height: 200px;
+    border-radius: 100px;
+  }
+  
+  .username-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .user-stats-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+  }
+  
+  .num-collabs, .num-followers, .num-following{
+    display: flex;
+    justify-content: center;
+  }
+
+  .user-interaction-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+  }
+
+  .follow-button, .collab-button, .dm-button{
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  .follow-button:hover, .collab-button:hover, .dm-button:hover{
+
+    box-shadow: 0px 0px 10px  rgb(20, 169, 255);
+  }
+
+  /* Profile MIDDLE Section End */
+
+
+  /* Profile DOWN Section Start */
+  .down-button-section{
+    position: fixed;
+    bottom: 0;
+    max-height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .down-button{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+  }
+
+  .down-button:hover{
+    box-shadow: 0px -5px 10px -2px rgb(20, 169, 255);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .down-arrow-img{
+    width: 3%;
+  }
+  
+  /* Profile DOWN Section End */
+
+  /* Profile MUSIC PLAYER Section Start */
+
+
+  /* Profile MUSIC PLAYER Section End */
