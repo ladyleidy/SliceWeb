@@ -3,63 +3,95 @@
     justify-content: center;
   }
   
-  /* Profile LEFT AND RIGHT Section Start */
-  .profile-left-section, .profile-right-section {
-    background-color: lightblue;
-    display: grid;
-    grid-template-rows: 55px 1fr;
-    max-width: 200px;
-    position: fixed;
-  }
+  /* Profile LEFT RIGHT Section Start */
 
-  .profile-right-section {
+  .right-button-section {
     right: 0;
   }
-  
-  .left-button-title-section, .right-button-title-section {
-    border-style: solid;
-    border-width: 1px;
-  }
-  
-  .left-button-title, .right-button-title {
-    border-style: solid;
-    border-width: 1px;
-    text-align: center;
-  }
-  
+
   .left-button-section, .right-button-section {
+    max-width: 200px;
+    position: fixed;
+    height:100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    border-style: none;
   }
-  
+
   .left-button, .right-button {
-    height: 600px;
-
-    background-color: white;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
     border-style: none;
   }
 
-  .left-button:hover, .right-button:hover {
+  .left-button:hover{
+    box-shadow:5px 3px 10px -2px rgb(20, 169, 255);
     cursor: pointer;
-    background-color: rgb(230, 230, 230);
     transition: 0.3s;
   }
 
-  .left-arrow-img, .right-arrow-img {
-    width: 25% ;
+  .right-button:hover {
+    box-shadow: -5px 3px 10px -2px rgb(20, 169, 255);
+    cursor: pointer;
+    transition: 0.3s;
   }
-  /* Profile LEFT AND RIGHT Section End */
+
+  
+  .left-arrow-img, .right-arrow-img{
+    width: 25%;
+  }
+
+  /* Profile LEFT RIGHT Section End */
+
+
+
+  
+  /* Profile DOWN Section Start */
+  .down-button-section{
+    position: fixed;
+    bottom: 0;
+    max-height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .down-button{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+  }
+
+  .down-button:hover{
+    box-shadow: 0px -5px 10px -2px rgb(20, 169, 255);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .down-arrow-img{
+    width: 3%;
+  }
+  
+  /* Profile DOWN Section End */
 
 
 
   /* Profile MIDDLE Section Start */
   .profile-middle-section {
-    background-color: lightpink;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 500px;
+    width: 500px;
+    padding: 25px;
+    background-color: rgb(33, 33, 33);
+    border-radius: 20px;
+
+
     display: grid;
-    grid-template-rows: 200px 20px 20px 20px 1fr 1fr;
+    grid-template-rows: 200px 20px 20px 20px 20px 20px;
     row-gap: 30px;
     justify-content: center;
   }
@@ -82,12 +114,25 @@
   .user-stats-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
   }
   
   .user-interaction-section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
   }
+
+  .follow-button, .collab-button, .dm-button{
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  .follow-button:hover, .collab-button:hover, .dm-button:hover{
+
+    box-shadow: 0px 0px 10px  rgb(20, 169, 255);
+  }
+
   /* Profile MIDDLE Section End */
 
   /* Profile MUSIC PLAYER Section Start */
