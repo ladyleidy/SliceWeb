@@ -41,6 +41,28 @@
   width: 100%;
 }
 
+.logo-button {
+  height: 60px;
+  width: 60px;
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(45, 45, 45);
+  border-style: none;
+  border-radius: 4px;
+
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.logo-button:hover {
+  transition: 0.15s;
+  box-shadow: 0 0 5px rgb(20, 169, 255);
+}
+
+.logo {
+  width: 100%;
+}
+
 .header-middle-section {
   display: flex;
   align-items: center;
@@ -143,5 +165,27 @@
 }
 
 .message-icon {
+  width: 100%;
+}
+
+.account-button {
+  height: 40px;
+  width: 40px;
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(45, 45, 45);
+  border-style: none;
+  border-radius: 4px;
+
+  transition: box-shadow 0.15s;
+  cursor: pointer;
+}
+
+.account-button:hover {
+  transition: 0.15s;
+  box-shadow: 0 0 5px rgb(20, 169, 255);
+}
+
+.account-icon {
   width: 100%;
 }
