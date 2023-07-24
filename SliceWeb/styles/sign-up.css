@@ -1,18 +1,55 @@
-.login-box {
-    height: 300px;
-    padding-top: 50px;
-    padding-left: 30px;
-  
-    background-color:rgb(33, 33, 33);
-    border-radius: 4px;
+.form-content-container {
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up-box {
+  height: 400px;
+  width: 250px;
+  padding-top: 30px;
+  padding-left: 30px;
+
+  background-color:rgb(33, 33, 33);
+  border-radius: 4px;
   }
-  
-  .title-text {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .email-text, .password-text {
-    margin-top: 30px;
-  }
-  
+
+.title-container {
+  display: flex;
+  margin-left: -30px;
+  justify-content: center;
+}
+
+.title-text {
+  font-size: 24px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.field-text {
+  margin-top: 20px;
+}
+
+.field-input {
+  width: 215px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  margin-left: -30px;
+}  
+
+.sign-up-button, .log-in-button {
+  height: 40px;
+  width: 200px;
+
+  color: rgb(255, 255, 255);
+  background-color: rgb(45, 45, 45);
+  border-style: none;
+  border-radius: 4px;
+
+  transition: 0.15s;
+  cursor: pointer;
+}
+
