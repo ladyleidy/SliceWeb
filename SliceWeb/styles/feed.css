@@ -4,8 +4,9 @@
 }
 
 .feed-section {
-    display: flex;
-    height: 1000px;
+    display: grid;
+    row-gap: 20px;
+    justify-content: center;
     width: 500px;
     background-color: rgb(33, 33, 33);
     border-radius: 20px;
@@ -31,18 +32,34 @@
   border-radius: 30px;
 }
 
+.top-right-post-section {
+  padding-left: 20px;
+}
+
+.profile-name {
+  font-weight: bold;
+}
+
+.post-type {
+  padding-top: 10px;
+  font-weight: lighter;
+}
+
 .content-section {
   display: flex;
   height: 250px;
   justify-content: center;
 }
 
-.content-img {
-  
+.interaction-section {
+  display: grid;
+  grid-template-columns: 50px 50px 50px 1fr;
+  padding-top: 10px;
 }
 
-.interaction-section {
-  padding: 10px;
+.bookmark-container {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .interaction-button {
@@ -60,4 +77,14 @@
 
 .interaction-button-content {
   width: 100%;
+}
+
+.like-counter {
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.caption {
+  padding-top: 10px;
+  padding-bottom: 15px;
 }
