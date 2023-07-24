@@ -1,0 +1,214 @@
+.profile-body {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Profile LEFT RIGHT Section Start */
+
+  .right-button-section {
+    right: 0;
+  }
+
+  .left-button-section, .right-button-section {
+    max-width: 200px;
+    position: fixed;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: -2%;
+  }
+
+  .left-button, .right-button {
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+  }
+
+  .left-button:hover{
+    box-shadow:5px 3px 10px -2px rgb(20, 169, 255);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .right-button:hover {
+    box-shadow: -5px 3px 10px -2px rgb(20, 169, 255);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  
+  .left-arrow-img, .right-arrow-img{
+    width: 25%;
+  }
+
+  /* Profile LEFT RIGHT Section End */
+
+
+
+  
+  /* Profile UP Section Start */
+  .up-button-section{
+    position: fixed;
+    max-height: 200px;
+    width: 100%;
+    display: flex;
+    top: 5%;
+  }
+
+  .up-button{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+  }
+
+  .up-button:hover{
+    box-shadow: 0px 5px 10px -2px rgb(20, 169, 255);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .up-arrow-img{
+    width: 3%;
+  }
+  
+  /* Profile UP Section End */
+
+
+
+  /* Profile INFO Section Start */
+  .profile-middle-section {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6%;
+    width: 75%;
+    padding: 25px;
+    border-radius: 20px;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 30px;
+    justify-content: center;
+  }
+  
+  .pic-user-section{
+    
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+
+    background-color: rgb(33, 33, 33);
+    border-radius: 20px;
+
+    justify-content: center;
+    padding: 25px;
+    height: 50%;
+  }
+
+  .stats-inter-section{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    row-gap: -100px;
+
+    background-color: rgb(33, 33, 33);
+    border-radius: 20px;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 25%;
+    padding: 25px;
+  }
+
+  .bio-links-section{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+    background-color: rgb(33, 33, 33);
+    border-radius: 20px;
+    
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    height: 50%;
+    padding: 25px;
+  }
+
+
+  .profile-picture-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-picture {
+    height: 200px;
+    border-radius: 100px;
+  }
+  
+  .username-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .user-stats-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .num-collabs, .num-followers, .num-following{
+    display: flex;
+    justify-content: center;
+  }
+
+  .user-interaction-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    height: 25%;
+  }
+
+  .follow-button, .collab-button, .dm-button{
+    border-radius: 10px;
+    background-color: white;
+  }
+
+  .follow-button:hover, .collab-button:hover, .dm-button:hover{
+
+    box-shadow: 0px 0px 10px  rgb(20, 169, 255);
+  }
+
+
+  /* Profile INFO Section End */
+
+  /* Profile MUSIC PLAYER Section Start */
+  .gallery {
+  }
+  
+  .audios{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    width: 50%;
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 30px;
+
+    background-color: rgb(33, 33, 33);
+    border-radius: 20px;
+    
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  .audios:hover{
+    box-shadow: 0px 0px 10px  rgb(20, 169, 255);
+    transition: 0.3s;
+  }
+
+  /* Profile MUSIC PLAYER Section End */
