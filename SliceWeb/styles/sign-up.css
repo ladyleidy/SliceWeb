@@ -1,6 +1,7 @@
 .form-content-container {
   display: flex;
   justify-content: center;
+  padding-top: 100px;
 }
 
 .sign-up-box {
@@ -53,3 +54,7 @@
   cursor: pointer;
 }
 
+.sign-up-button:hover {
+  transition: 0.15s;
+  box-shadow: 0 0 5px rgb(20, 169, 255);
+}

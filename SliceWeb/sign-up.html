@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign Up</title>
+
+    <link rel="stylesheet" href="styles/general.css">
+
+    <link rel="stylesheet" href="styles/header.css">
+
+    <link rel="stylesheet" href="styles/sign-up.css">
+  </head>
+
+  <body>
+    <!--Header START-->
+    <div class="header">
+      <!--Header Left Section START-->
+      <div class="header-left-section">
+        <button class="menu-button">
+          <img src="assets/icons8-hamburger-menu-50.png" class="menu-icon">
+        </button>
+        
+        <button class="logo-button">
+          <img class="logo" src="assets/WhatsApp Image 2023-07-21 at 20.20.47.jpg">
+        </button>
+      </div>
+      <!--Header Left Section END-->
+    </div>
+    <!--Header END-->
+
+    <!--Login Section START-->        
+        <div class="form-content-container">
+          <form onsubmit="signup(event)">
+            <div class="sign-up-box">
+              <div class="title-container">
+                <p class="title-text">Sign Up</p>
+              </div>
+
+              <div>
+                <p class="field-text">Full Name</p>
+                <input class="field-input" type="text" name="" placeholder="Full Name" id="fullname">
+              </div>
+              
+              <div>
+                <p class="field-text">Email</p>
+                <input class="field-input" type="text" name="" placeholder="Email" id="email">
+              </div>
+              <div>
+                <p class="field-text">Password</p>
+                <input class="field-input" type="password" name="" placeholder="Password" id="password">
+              </div>
+              <div>
+                <p class="field-text">Comfirm Password</p>
+                <input class="field-input" type="password" name="" placeholder="Confirm Password" id="copassword">
+              </div>
+              
+              <div class="button-container">
+                <button class="sign-up-button" id="signupinp" value="Sign Up">
+                  Sign Up
+                </button>
+              </div>
+              
+              <div class="button-container">
+                <button class="log-in-button">
+                  Already a Member?
+                </button>
+              </div> 
+          </form>
+        </div>
+    <!--Login Section END-->
+  </body>
+  <script src="sign-up.js" type="module"></script>
+</html>
