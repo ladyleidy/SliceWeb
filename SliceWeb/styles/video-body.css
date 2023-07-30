@@ -122,8 +122,7 @@
     
   }
 
-  .gallery .videos {
-    
+  .videos {
     max-width: 100%;
     height: auto;
     margin-top: 40px;
@@ -133,8 +132,7 @@
     list-style: none;
   }
 
-  .gallery .videos .video {
-    
+  .video {
     max-width: 100%;
     height: auto;
 
@@ -142,10 +140,11 @@
     cursor: pointer;
 
     overflow: hidden;
-
+    
     position: relative;
     margin-bottom: 14px;
     border-radius: 4px;
+    overflow: 500%;
   }
 
   .videos .details {
@@ -209,8 +208,3 @@
   }
   
   /* Profile DOWN Section End */
-
-  /* Profile MUSIC PLAYER Section Start */
-
-
-  /* Profile MUSIC PLAYER Section End */

@@ -46,3 +46,4 @@
         console.log(obj);
       };
   
+      document.getElementById("signupinp").addEventListener("click", document.location='homepage.html');
